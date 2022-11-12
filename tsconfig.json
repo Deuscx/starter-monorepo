@@ -5,6 +5,7 @@
         "lib": [
             "esnext"
         ],
+        "baseUrl": ".",
         "skipLibCheck": true,
         "skipDefaultLibCheck": true,
         "strictNullChecks": true,
