@@ -2,6 +2,8 @@
   "name": "@starter-monorepo/utils",
   "version": "0.0.1",
   "description": "An infrastructure monorepo shared library for all projects and apps.",
+  "author": "deuscx",
+  "license": "MIT",
   "funding": "https://github.com/sponsors/deuscx",
   "homepage": "",
   "repository": {
@@ -12,11 +14,10 @@
   "bugs": {
     "url": "https://github.com/starter-monorepo/starter-monorepo/issues"
   },
-  "scripts": {
-    "prepare": "npm run build",
-    "dev": "tsup --watch",
-    "build": "tsup"
-  },
+  "keywords": [
+    "utils",
+    "types"
+  ],
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
@@ -27,16 +28,15 @@
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
-  "dependencies": {
-    "@starter-monorepo/core": "workspace:*"
-  },
   "files": [
     "dist"
   ],
-  "keywords": [
-    "utils",
-    "types"
-  ],
-  "author": "deuscx",
-  "license": "MIT"
+  "scripts": {
+    "prepare": "npm run build",
+    "dev": "tsup --watch",
+    "build": "tsup"
+  },
+  "dependencies": {
+    "@starter-monorepo/core": "workspace:*"
+  }
 }
