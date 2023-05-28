@@ -1,6 +1,6 @@
 name: 🐞 Bug report
 title: '[BUG] - YOUR_ISSUE_TITLE_HERE_REPLACE_ME'
-description: Report an issue with OnuUI
+description: Report an issue with pkg-name
 labels: [bug]
 body:
   - type: markdown
